@@ -1,0 +1,39 @@
+
+
+Install R language 
+
+		step 1 :- sudo apt-get install r-base
+
+
+Install Typescript
+
+		step 1 :- npm install typescript
+
+
+Install Pascal
+
+		step 1 :- sudo apt-get install fpc
+
+
+
+Install Mysql
+
+		step 1 :- sudo apt-get install mysql-server
+
+
+
+Adding user to mysql
+
+		step 1 :- sudo mysql
+
+		step 2 :- CREATE USER 'sammy'@'localhost' IDENTIFIED BY 'password';
+			sammy, password is user name and password respectively you can change name as per your requirement
+
+		step 3 :- GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
+			Granting all permission to the user
+
+		step 4 :- exit
+
+
+
+
